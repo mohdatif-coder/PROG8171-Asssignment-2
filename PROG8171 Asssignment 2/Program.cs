@@ -4,6 +4,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("PROG8171 Assignment 2\n");
+
         Console.Write("Enter Product ID: ");
         int productID = int.Parse(Console.ReadLine());
 
@@ -28,8 +30,8 @@ public class Program
         Console.WriteLine($"Price: {product.Price:C}");
 
         Console.WriteLine($"Stock: {product.Stock}");
-     
-        
+
+
         //
 
 

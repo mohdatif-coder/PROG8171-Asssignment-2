@@ -4,7 +4,6 @@
     public string? ProductName { get; set; } 
     public decimal Price { get; set; }
     public int Stock { get; set; }
-
     // Constructor 
     public Product(int productID, string productName, decimal price, int stock)
     {
@@ -13,14 +12,12 @@
         Price = price;
         Stock = stock;
     }
-
-    // Method to  increase
+    //increase
     public void IncreaseStock(int quantity)
     {
         Stock += quantity;
     }
-
-    // Method to decrease 
+    //decrease 
     public void DecreaseStock(int quantity)
     {
         Stock -= quantity;
